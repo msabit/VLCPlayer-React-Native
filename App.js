@@ -51,9 +51,13 @@ class LiveView extends Component
                   initType: 2,
                   hwDecoderEnabled: 1,
                   hwDecoderForced: 1,
-                  //Mobile
+                  
+                  // IP webCam URl
                  // url:'rtsp://192.168.43.1:8080/h264_ulaw.sdp',
+
+                 //URL for Testing
                   uri: 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4',
+                  
                      //'rtsp://admin:biit12@192.168.1.102/user=admin&password=biit12&channel=2&stream=0.sdp',
                   initOptions: [
                       '--no-audio',
