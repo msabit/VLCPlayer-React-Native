@@ -52,10 +52,9 @@ class LiveView extends Component
                   hwDecoderEnabled: 1,
                   hwDecoderForced: 1,
                   //Mobile
-                 // url:'rtsp://192.168.1.6:8080/h264_ulaw.sdp',
-                  uri:
-                     //  'rtsp://192.168.56.1:1935/live/MobileCam.stream',
-                     'rtsp://admin:biit12@192.168.1.102/user=admin&password=biit12&channel=2&stream=0.sdp',
+                 // url:'rtsp://192.168.43.1:8080/h264_ulaw.sdp',
+                  uri: 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4',
+                     //'rtsp://admin:biit12@192.168.1.102/user=admin&password=biit12&channel=2&stream=0.sdp',
                   initOptions: [
                       '--no-audio',
                       '--rtsp-tcp',
